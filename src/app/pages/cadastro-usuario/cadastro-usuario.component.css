@@ -1,0 +1,44 @@
+.formDeCadastro{
+  color: #000;
+  background-color: rgb(168, 168, 168);
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+}
+.formDeCadastro > form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.formDeCadastro > form > input{
+  width: 100%;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+}
+.formDeCadastro > form > label{
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.radiobutton{
+  width: 100%;
+
+}
+.radiobutton > label{
+  margin-right: 20px;
+}
+.formDeCadastro > form > button{
+  width: 100%;
+  margin-top: 40px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

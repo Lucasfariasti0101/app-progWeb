@@ -1,0 +1,24 @@
+<div class="formDeCadastro">
+  <form [formGroup]="form">
+    <label>Nome</label>
+    <input type="text" formControlName="nome" required>
+    <label>Sobrenome</label>
+    <input type="text" formControlName="sobrenome" required>
+    <label>E-mail</label>
+    <input type="email" formControlName="email" required email>
+    <label>Senha</label>
+    <input type="password" formControlName="senha" required>
+    <label>Tipo</label>
+    <div class="radiobutton">
+      <input type="radio" value="treinador" id="Treinador" formControlName="tipo" required>
+      <label>Treinador</label>
+      <input type="radio" value="aluno" id="aluno" formControlName="tipo" required>
+      <label>Aluno</label>
+    </div>
+
+
+    <button (click)="cadastrar()">Cadastrar</button>
+  </form>
+
+
+</div>
