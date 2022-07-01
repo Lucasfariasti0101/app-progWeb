@@ -1,5 +1,7 @@
-<div *ngFor="let usuario of usuarios">
-  <span>{{ usuario.nome }}</span>
-  <span>{{ usuario.tipo }}</span>
+<h1>Treinadores Cadastrados</h1>
+
+<div class="containerListTreinadores" *ngFor="let usuario of usuarios">
+
+  <mat-card class="userCard">{{ usuario.nome }}</mat-card>
 
 </div>

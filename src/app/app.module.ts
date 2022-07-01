@@ -8,7 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './views/header/header.component';
 import { SidenavComponent } from './views/sidenav/sidenav.component';
 import { MainComponent } from './views/main/main.component';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCardModule } from '@angular/material/card';
 
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -28,7 +29,8 @@ import { UsuarioListAlunoComponent } from './pages/usuario-list-aluno/usuario-li
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],

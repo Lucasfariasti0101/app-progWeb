@@ -1,0 +1,14 @@
+h1{
+  text-align: center;
+
+}
+.containerListTreinadores{
+  width: 700px;
+
+}
+.userCard{
+  margin-top: 20px;
+  background-color: rgb(179, 179, 179);
+  font-size: 20px;
+  padding-left: 40px;
+}
